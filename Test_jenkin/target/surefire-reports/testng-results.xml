@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46" started-at="2016-07-15T03:30:48Z" finished-at="2016-07-15T03:30:48Z">
+  <suite name="Suite" duration-ms="40" started-at="2016-07-15T03:54:56Z" finished-at="2016-07-15T03:54:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46" started-at="2016-07-15T03:30:48Z" finished-at="2016-07-15T03:30:48Z">
+    <test name="Test" duration-ms="40" started-at="2016-07-15T03:54:56Z" finished-at="2016-07-15T03:54:56Z">
+      <class name="testing.Geetesh">
+        <test-method status="PASS" signature="name()[pri:0, instance:testing.Geetesh@ce8af7]" name="name" duration-ms="5" started-at="2016-07-15T09:24:56Z" finished-at="2016-07-15T09:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+      </class> <!-- testing.Geetesh -->
       <class name="generic.Testing">
-        <test-method status="PASS" signature="display()[pri:0, instance:generic.Testing@16eb2ec]" name="display" duration-ms="23" started-at="2016-07-15T09:00:48Z" finished-at="2016-07-15T09:00:48Z">
+        <test-method status="PASS" signature="display()[pri:0, instance:generic.Testing@643faf]" name="display" duration-ms="20" started-at="2016-07-15T09:24:56Z" finished-at="2016-07-15T09:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display -->

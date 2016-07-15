@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="generic.Testing"/>
+      <class name="testing.Geetesh"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
