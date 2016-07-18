@@ -23,7 +23,7 @@ public class Testing {
 		driver.get("http://www.facebook.com");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("geetesh001@yahoo.co.in");
-		driver.findElement(By.xpath("//input[@id='pass")).sendKeys("papi6789");
+		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("papi6789");
 		driver.findElement(By.xpath("//input[@value='Log In']")).click();
 	}
 
