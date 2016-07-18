@@ -2,6 +2,7 @@ package generic;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -21,6 +22,9 @@ public class Testing {
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("geetesh001@yahoo.co.in");
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("papi6789");
+		driver.findElement(By.xpath("//*[@id='u_0_m']")).click();
 	}
 
 }
