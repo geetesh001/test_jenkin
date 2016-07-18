@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40" started-at="2016-07-15T03:54:56Z" finished-at="2016-07-15T03:54:56Z">
+  <suite name="Suite" duration-ms="32" started-at="2016-07-18T03:02:09Z" finished-at="2016-07-18T03:02:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="40" started-at="2016-07-15T03:54:56Z" finished-at="2016-07-15T03:54:56Z">
+    <test name="Test" duration-ms="32" started-at="2016-07-18T03:02:09Z" finished-at="2016-07-18T03:02:09Z">
       <class name="testing.Geetesh">
-        <test-method status="PASS" signature="name()[pri:0, instance:testing.Geetesh@ce8af7]" name="name" duration-ms="5" started-at="2016-07-15T09:24:56Z" finished-at="2016-07-15T09:24:56Z">
+        <test-method status="PASS" signature="name()[pri:0, instance:testing.Geetesh@ce8af7]" name="name" duration-ms="0" started-at="2016-07-18T08:32:09Z" finished-at="2016-07-18T08:32:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- name -->
       </class> <!-- testing.Geetesh -->
       <class name="generic.Testing">
-        <test-method status="PASS" signature="display()[pri:0, instance:generic.Testing@643faf]" name="display" duration-ms="20" started-at="2016-07-15T09:24:56Z" finished-at="2016-07-15T09:24:56Z">
+        <test-method status="PASS" signature="display()[pri:0, instance:generic.Testing@643faf]" name="display" duration-ms="16" started-at="2016-07-18T08:32:09Z" finished-at="2016-07-18T08:32:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display -->
